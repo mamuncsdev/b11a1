@@ -593,8 +593,12 @@ margin-right: 15px;
    
 }
 
+.tkcarddesign:hover{
+    background-color:rgb(198, 228, 214) ;
+}
+
 .tkcarddesign1{
-    background: white;
+    
     border-radius: 16px;
     padding: 40px;
     width: 300px;
