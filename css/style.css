@@ -13,6 +13,7 @@ body{
       margin-left: 160px;
       margin-right: 160px;
       
+      
      
       
      
@@ -148,7 +149,7 @@ body{
     .card1{
         position: static;
         width: 302px;
-        height: 244px;
+        height: 270px;
         box-sizing: border-box;
         border: 1px solid rgba(14, 14, 14, 0.15);
         border-radius: 16px;
@@ -159,7 +160,7 @@ body{
     .card2{
         position: static;
         width: 302px;
-        height: 244px;
+        height: 270px;
         box-sizing: border-box;
         border: 1px solid rgba(14, 14, 14, 0.15);
         border-radius: 16px;
@@ -171,7 +172,7 @@ body{
     .card3{
         position: static;
         width: 302px;
-        height: 244px;
+        height: 270px;
         box-sizing: border-box;
         border: 1px solid rgba(14, 14, 14, 0.15);
         border-radius: 16px;
@@ -182,7 +183,7 @@ body{
     .card4{
         position: static;
         width: 302px;
-        height: 244px;
+        height: 270px;
         box-sizing: border-box;
         border: 1px solid rgba(14, 14, 14, 0.15);
         border-radius: 16px;
@@ -212,6 +213,7 @@ body{
     /* vision section start  */
 .vision{
     margin-top: 80px;
+    margin-bottom: 32px;
 
 }
 
@@ -222,13 +224,16 @@ body{
 .vision1 > p{
     font-size: 16px;
     font-weight: 400;
-    /* text-wrap: wrap; */
+    text-wrap: wrap;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: left;
 }
 
 .visioncard{
     display: flex;
     
     justify-content: space-between;
+    align-items: center;
     gap: 24px;
 }
 
@@ -295,6 +300,7 @@ gap: 12;
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
+    margin-top: 0px;
     
 }
 
@@ -305,6 +311,7 @@ gap: 12;
     font-weight: 600;
     color: #FFFFFF;
     border-color: #5490F5;
+    margin-top: 15px;
     
     
     
@@ -316,6 +323,7 @@ gap: 12;
     border-radius: 8px ;
     font-weight: 600;
     color: #FFFFFF;
+    margin-top: 16px;
    
     
 }
@@ -326,6 +334,7 @@ gap: 12;
     font-weight: 600;
     color: #FFFFFF;
     border-color: #FFC239;
+    margin-top: 20px;
     
     
 }
@@ -334,9 +343,67 @@ gap: 12;
 
 
 
+ /* Govt Section start */
+
+ .headofstatecard{
+    
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: start;
+
+padding: 48px 24px 48px 24px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
 
 
 
+}
+.quotebg{
+    position: relative;
+    margin-top: -35px;
+    margin-left: 0;
+    
+}
+
+
+
+.govtp1{
+    position: absolute;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 150px;
+   
+    margin-top: 0;
+    margin-left: 0;
+
+    
+    /* top: ;
+    left: ;
+     */
+            
+    
+    
+}
+.govtp2{
+    margin-top: 60px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    
+}
+
+.govtp3{
+    margin-top: -15px;
+    color: rgba(14, 14, 14, 0.6);
+}
+
+
+
+ /* Govt Section end */
 
 
 
