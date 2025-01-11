@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    
+    
+        font-family: "Fira Sans", serif;
+        font-weight: 700;
+        font-style: normal;
+        background: rgb(245, 245, 245);
+        
+       
+
+      margin-left: 160px;
+      margin-right: 160px;
+      
+     
+      
+     
+}
+
+
+
+/* nav section start  */
+   
+
+    .nav-class{
+
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        height: 100px;  
+   
+
+    }
+
+    .head1{     
+        font-weight: 700;
+        font-size: 32px;   
+      
+    }
+
+    .btn1{
+    
+        border: 1px solid rgb(0, 106, 80);
+        border-radius: 8px;
+        color: rgb(0, 106, 80);
+        font-family: "Fira Sans", serif;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 15px 30px 15px 30px;
+
+    }
+
+
+    .btn1:hover{
+        
+        border: 1px solid rgb(0, 106, 80);
+        background: rgb(0, 106, 80);
+        border-radius: 8px;
+        color: white;
+       
+    }
+
+    /* nav section end  */
+
+
+
+/* Hero section start */
+
+    .hero{
+        
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 80px 100px 80px 100px;
+        gap: 64px;
+        border-radius: 24px;
+        background: #C6E4D6
+        
+    }
+
+     .para1{
+       color:  #6A7972;
+       font-size: 24px;
+       margin-bottom: 16px;
+    }
+    .head2{
+        font-size: 56px;
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+
+    .text-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 24;
+        padding: 0px;
+    }
+
+     .btn2{
+        background-color: #006A50;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 17px 34px 17px 34px;
+        border-radius: 8px;
+
+
+    }
+
+    .img-div{
+        
+        margin-top: 80px;
+        margin-bottom: 80px;
+        
+    }
+
+
+/* Hero section end */
+
+
+    /* piller section start  */
+
+
+    .pillersofbd{
+        margin-top: 80px;
+    }
+
+    
+
+    .pillers{
+        
+        margin-top: 32px;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 24px;
+        
+        
+        
+    }
+
+    .card1{
+        position: static;
+        width: 302px;
+        height: 244px;
+        box-sizing: border-box;
+        border: 1px solid rgba(14, 14, 14, 0.15);
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+    .card2{
+        position: static;
+        width: 302px;
+        height: 244px;
+        box-sizing: border-box;
+        border: 1px solid rgba(14, 14, 14, 0.15);
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+        padding-left: 25px;
+        padding-top: 25px;
+        
+    }
+    .card3{
+        position: static;
+        width: 302px;
+        height: 244px;
+        box-sizing: border-box;
+        border: 1px solid rgba(14, 14, 14, 0.15);
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+    .card4{
+        position: static;
+        width: 302px;
+        height: 244px;
+        box-sizing: border-box;
+        border: 1px solid rgba(14, 14, 14, 0.15);
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+
+    .pillerspara1{
+        font-size: 20px;
+        
+    }
+
+    .pillerspara2{
+        font-weight: 400;
+        font-size: 16px;
+        padding-bottom: 24px;
+        padding-right: 24px;
+        color: rgba(14, 14, 14, 0.7);
+    }
+
+/* piller section end  */
+
+
+
+
+    /* vision section start  */
+.vision{
+    margin-top: 80px;
+
+}
+
+.vision1 > h1{
+    font-size: 40px;
+}
+
+.vision1 > p{
+    font-size: 16px;
+    font-weight: 400;
+    /* text-wrap: wrap; */
+}
+
+.visioncard{
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.vcard1{
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    
+}
+
+.vcard2{
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);   
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    
+}
+
+.vcard3{
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+
+    
+}
+
+.visionpara1{
+    font-size: 20px;
+}
+
+.visionpara2{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.vbtn1{
+    background: rgb(84, 144, 245);
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-color: #5490F5;
+    
+    
+    
+}
+.vbtn2{
+    background: rgb(9, 161, 92);
+    padding: 11px 20px 11px 20px;
+    border-color: #09A15C;
+    border-radius: 8px ;
+    font-weight: 600;
+    color: #FFFFFF;
+   
+    
+}
+.vbtn3{
+    background: rgb(255, 194, 57);
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-color: #FFC239;
+    
+    
+}
+
+ /* vision section end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
